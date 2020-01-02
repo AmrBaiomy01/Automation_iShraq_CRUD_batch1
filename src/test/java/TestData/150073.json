@@ -1,0 +1,75 @@
+[
+  {
+    "ModuleID": 150073,
+    "BlockName": "Master Block",
+    "BlockView": "CMTT_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V2",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "CMT_CODE",
+        "Caption": "Committee Code",
+        "Value": "31"
+      },
+      {
+        "Field": "CMTT_DECISION_RULE",
+        "Caption": "Decision Rule",
+        "Value": ""
+      },
+      {
+        "Field": "CMTT_TYPE",
+        "Caption": "Meeting Type",
+        "Value": "N"
+      },
+      {
+        "Field": "CMTT_DATE_ACTUAL",
+        "Caption": "Actual Date",
+        "Value": ""
+      },
+      {
+        "Field": "CMTT_DATE",
+        "Caption": "Date",
+        "Value": "01012020"
+      }
+    ]
+  },
+  {
+    "ModuleID": 150073,
+    "BlockName": "Members",
+    "BlockView": "CMTT_MEMBERS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V3",
+    "BlockOrder": 2.0,
+    "BlockParentView": "CMTT_FE_VW",
+    "Fields": [
+      {
+        "Field": "CMTTM_ATTENDED",
+        "Caption": "Attended",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 150073,
+    "BlockName": "Agenda",
+    "BlockView": "CMTT_AGENDA_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V1",
+    "BlockOrder": 3.0,
+    "BlockParentView": "CMTT_FE_VW",
+    "Fields": [
+      {
+        "Field": "MEA_TRX_KEY",
+        "Caption": "Transaction Key",
+        "Value": ""
+      },
+      {
+        "Field": "TRX_CAPTION",
+        "Caption": "Transaction",
+        "Value": ""
+      }
+    ]
+  }
+]

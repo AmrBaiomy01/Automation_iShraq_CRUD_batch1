@@ -1,0 +1,59 @@
+[
+  {
+    "ModuleID": 15004,
+    "BlockName": "Master Block",
+    "BlockView": "FIN_CMT_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V2",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "IS_ACTIVE",
+        "Caption": "Is Active",
+        "Value": ""
+      },
+      {
+        "Field": "CMT_START_DATE",
+        "Caption": "Start Date",
+        "Value": "01012019"
+      },
+      {
+        "Field": "CMT_NAME",
+        "Caption": "Name",
+        "Value": "Committee_CRUD"
+      },
+      {
+        "Field": "CMT_CODE_BELONGS_TO",
+        "Caption": "Belongs To",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 15004,
+    "BlockName": "Members",
+    "BlockView": "FIN_CMT_CMTM_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V1",
+    "BlockOrder": 2.0,
+    "BlockParentView": "FIN_CMT_FE_VW",
+    "Fields": [
+	  {
+        "Field": "USER_REAL_NAME",
+        "Caption": "User Name",
+        "Value": "OMAR"
+      },
+      {
+        "Field": "CMTM_DESIGNATION",
+        "Caption": "Designation",
+        "Value": ""
+      },
+      {
+        "Field": "CMTM_IS_ADMIN",
+        "Caption": "Is Admin",
+        "Value": "CHECKED"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+	{
+		"CheckLogin": {
+			"UserName": "administrator",
+			"UserPass": "admin12"
+		}
+	},
+	{
+		"Customer": {
+			"M_004_Appr": "988043",
+			"F_004_Appr": "988044",
+			"M_002_Appr": "988045",
+			"F_002_Appr": "988046",
+			"M_010_Appr": "988047",
+			"F_010_Appr": "988048",
+			"M_007_Appr": "988049",
+			"F_007_Appr": "988050",
+			"BBC_M_003_Reje": "988052"
+		}
+	},
+	{
+		"Rules": {
+			"Employment Salary Approv": "39",
+			"Employment Salary Reje": "49",
+			"Table B_Approve": "38",
+			"Table B_Reje": "37",
+			"Fin Amount Up To 3000": "40"
+		}
+	},
+	{
+		"RulesActions": {
+			"Salary Approv": "APP",
+			"Salary Reje": "REQAPP",
+			"B_Approve": "APP",
+			"B_Reje": "REQAPP",
+			"Up To 3000": "APP"
+		}
+	},
+	{
+		"checkAddFund": {
+			"FundName": "bbc-cnn-automated-script33",
+			"CreationDate": "01/01/2019",
+			"MaturityDat": "01/01/2020",
+			"CurrencyName": "EGP",
+			"RequiredDonorCode": "201",
+			"RequiredContributorAmo": "100000",
+			"classCodeNumber": "1000",
+			"classPercentageAmount": "100",
+			"ParentframeID": "frame_15002003",
+			"SubFramesID": "parentModuleID15002003",
+			"SettlementFrame": "frame_108"
+		}
+	}
+]

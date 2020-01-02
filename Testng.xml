@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="classes" thread-count="5" configfailurepolicy="continue">
+	<test verbose="10" name="Suite" parallel="tests" group-by-instances="true">
+		<classes>
+		
+			<class name="CRUDTests.AnnualIncomeCRUDTest" /> 	
+			<class name="CRUDTests.BusinessPartiesCRUDTest" /> 	
+			<class name="CRUDTests.CommitteesCRUDTest" />		
+			<class name="CRUDTests.CommitteesMeetingsCRUDTest" />	
+			<class name="CRUDTests.CompaniesCRUDTest" />		
+			<class name="CRUDTests.CorporateFinanciersCRUDTest" />	
+			<class name="CRUDTests.CurrenciesCRUDTest" />		
+			<class name="CRUDTests.DocumentTypesCRUDTest" />
+			<class name="CRUDTests.IDTypesCRUDTest" />
+						
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

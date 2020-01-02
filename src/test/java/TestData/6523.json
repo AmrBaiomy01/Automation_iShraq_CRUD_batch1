@@ -1,0 +1,74 @@
+[
+  {
+    "ModuleID": 6523,
+    "BlockName": "Master Block",
+    "BlockView": "IDT_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V0",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "IDT_UNIQUE",
+        "Caption": "Unique",
+        "Value": ""
+      },
+      {
+        "Field": "IDT_REGEX",
+        "Caption": "Regex Format",
+        "Value": ""
+      },
+      {
+        "Field": "IDT_TYPE",
+        "Caption": "Type",
+        "Value": "I"
+      },
+      {
+        "Field": "IDT_NAME",
+        "Caption": "Name",
+        "Value": "CRUD_IDTypes"
+      },
+      {
+        "Field": "IDT_HAS_ISS_DT",
+        "Caption": "Has Issue Date",
+        "Value": "checked"
+      },
+      {
+        "Field": "IDT_FORMAT",
+        "Caption": "Format",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 6523,
+    "BlockName": "Issuer",
+    "BlockView": "ID_TYPES_ISSUES_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V1",
+    "BlockOrder": 1.0,
+    "BlockParentView": "IDT_FE_VW",
+    "Fields": [
+      {
+        "Field": "ISS_NAME",
+        "Caption": "Name",
+        "Value": ""
+      },
+      {
+        "Field": "ISS_CODE",
+        "Caption": "Code",
+        "Value": ""
+      },
+      {
+        "Field": "IDT_REF_NUM",
+        "Caption": "Reference Number",
+        "Value": ""
+      },
+      {
+        "Field": "ISS_NOTES",
+        "Caption": "Notes",
+        "Value": ""
+      }
+    ]
+  }
+]
