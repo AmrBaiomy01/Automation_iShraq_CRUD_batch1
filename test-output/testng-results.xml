@@ -2,70 +2,70 @@
 <testng-results skipped="0" failed="0" ignored="16" total="56" passed="40">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="970875" started-at="2019-12-30T09:10:55Z" finished-at="2019-12-30T09:27:06Z">
+  <suite name="Default suite" duration-ms="1054368" started-at="2020-01-02T10:43:16Z" finished-at="2020-01-02T11:00:50Z">
     <groups>
       <group name="CurrenciesCRUDTest">
-        <method signature="CurrenciesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="CheckSaveTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
-        <method signature="CurrenciesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkUpdateTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
-        <method signature="CurrenciesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkDeleteTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
-        <method signature="CurrenciesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkFilterArea" class="CRUDTests.CurrenciesCRUDTest"/>
-        <method signature="CurrenciesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkRetrieveAllAndPaging" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="CheckSaveTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkUpdateTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkDeleteTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkFilterArea" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkRetrieveAllAndPaging" class="CRUDTests.CurrenciesCRUDTest"/>
       </group> <!-- CurrenciesCRUDTest -->
       <group name="DocumentTypesCRUDTest">
-        <method signature="DocumentTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="CheckSaveTestCase" class="CRUDTests.DocumentTypesCRUDTest"/>
-        <method signature="DocumentTypesCRUDTest.updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="updateData" class="CRUDTests.DocumentTypesCRUDTest"/>
-        <method signature="DocumentTypesCRUDTest.deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="deleteData" class="CRUDTests.DocumentTypesCRUDTest"/>
-        <method signature="DocumentTypesCRUDTest.filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="filterByRecords" class="CRUDTests.DocumentTypesCRUDTest"/>
-        <method signature="DocumentTypesCRUDTest.retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="retrieveAllAndPaging" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="CheckSaveTestCase" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="updateData" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="deleteData" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="filterByRecords" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="retrieveAllAndPaging" class="CRUDTests.DocumentTypesCRUDTest"/>
       </group> <!-- DocumentTypesCRUDTest -->
       <group name="CommitteesCRUDTest">
-        <method signature="CommitteesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="CheckSaveTestCase" class="CRUDTests.CommitteesCRUDTest"/>
-        <method signature="CommitteesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkUpdateTestCase" class="CRUDTests.CommitteesCRUDTest"/>
-        <method signature="CommitteesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkDeleteTestCase" class="CRUDTests.CommitteesCRUDTest"/>
-        <method signature="CommitteesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkFilterArea" class="CRUDTests.CommitteesCRUDTest"/>
-        <method signature="CommitteesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="CheckSaveTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkUpdateTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkDeleteTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkFilterArea" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesCRUDTest"/>
       </group> <!-- CommitteesCRUDTest -->
       <group name="CommitteesMeetingsCRUDTest">
-        <method signature="CommitteesMeetingsCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="CheckSaveTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
-        <method signature="CommitteesMeetingsCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkUpdateTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
-        <method signature="CommitteesMeetingsCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkDeleteTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
-        <method signature="CommitteesMeetingsCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkFilterArea" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
-        <method signature="CommitteesMeetingsCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="CheckSaveTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkUpdateTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkDeleteTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkFilterArea" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
       </group> <!-- CommitteesMeetingsCRUDTest -->
       <group name="AnnualIncomeCRUDTest">
-        <method signature="AnnualIncomeCRUDTest.CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="CheckLogin" class="CRUDTests.AnnualIncomeCRUDTest"/>
-        <method signature="AnnualIncomeCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="CheckSaveTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
-        <method signature="AnnualIncomeCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkUpdateTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
-        <method signature="AnnualIncomeCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkDeleteTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
-        <method signature="AnnualIncomeCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkFilterArea" class="CRUDTests.AnnualIncomeCRUDTest"/>
-        <method signature="AnnualIncomeCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkRetrieveAllAndPaging" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="CheckLogin" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="CheckSaveTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkUpdateTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkDeleteTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkFilterArea" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkRetrieveAllAndPaging" class="CRUDTests.AnnualIncomeCRUDTest"/>
       </group> <!-- AnnualIncomeCRUDTest -->
       <group name="BusinessPartiesCRUDTest">
-        <method signature="BusinessPartiesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@39d76cb5]" name="checkFilterArea" class="CRUDTests.BusinessPartiesCRUDTest"/>
-        <method signature="BusinessPartiesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@39d76cb5]" name="checkRetrieveAllAndPaging" class="CRUDTests.BusinessPartiesCRUDTest"/>
+        <method signature="BusinessPartiesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@4a00d9cf]" name="checkFilterArea" class="CRUDTests.BusinessPartiesCRUDTest"/>
+        <method signature="BusinessPartiesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@4a00d9cf]" name="checkRetrieveAllAndPaging" class="CRUDTests.BusinessPartiesCRUDTest"/>
       </group> <!-- BusinessPartiesCRUDTest -->
       <group name="CorporateFinanciersCRUDTest">
-        <method signature="CorporateFinanciersCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@2fba3fc4]" name="checkFilterArea" class="CRUDTests.CorporateFinanciersCRUDTest"/>
-        <method signature="CorporateFinanciersCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@2fba3fc4]" name="checkRetrieveAllAndPaging" class="CRUDTests.CorporateFinanciersCRUDTest"/>
+        <method signature="CorporateFinanciersCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@4bf48f6]" name="checkFilterArea" class="CRUDTests.CorporateFinanciersCRUDTest"/>
+        <method signature="CorporateFinanciersCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@4bf48f6]" name="checkRetrieveAllAndPaging" class="CRUDTests.CorporateFinanciersCRUDTest"/>
       </group> <!-- CorporateFinanciersCRUDTest -->
       <group name="IDTypesCRUDTest">
-        <method signature="IDTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="CheckSaveTestCase" class="CRUDTests.IDTypesCRUDTest"/>
-        <method signature="IDTypesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkUpdateTestCase" class="CRUDTests.IDTypesCRUDTest"/>
-        <method signature="IDTypesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkDeleteTestCase" class="CRUDTests.IDTypesCRUDTest"/>
-        <method signature="IDTypesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkFilterArea" class="CRUDTests.IDTypesCRUDTest"/>
-        <method signature="IDTypesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkRetrieveAllAndPaging" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="CheckSaveTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkUpdateTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkDeleteTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkFilterArea" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkRetrieveAllAndPaging" class="CRUDTests.IDTypesCRUDTest"/>
       </group> <!-- IDTypesCRUDTest -->
       <group name="CompaniesCRUDTest">
-        <method signature="CompaniesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="CheckSaveTestCase" class="CRUDTests.CompaniesCRUDTest"/>
-        <method signature="CompaniesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkUpdateTestCase" class="CRUDTests.CompaniesCRUDTest"/>
-        <method signature="CompaniesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkDeleteTestCase" class="CRUDTests.CompaniesCRUDTest"/>
-        <method signature="CompaniesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkFilterArea" class="CRUDTests.CompaniesCRUDTest"/>
-        <method signature="CompaniesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkRetrieveAllAndPaging" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="CheckSaveTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkUpdateTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkDeleteTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkFilterArea" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkRetrieveAllAndPaging" class="CRUDTests.CompaniesCRUDTest"/>
       </group> <!-- CompaniesCRUDTest -->
     </groups>
-    <test name="Suite" duration-ms="970875" started-at="2019-12-30T09:10:55Z" finished-at="2019-12-30T09:27:06Z">
+    <test name="Suite" duration-ms="1054368" started-at="2020-01-02T10:43:16Z" finished-at="2020-01-02T11:00:50Z">
       <class name="CRUDTests.AnnualIncomeCRUDTest">
-        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="startDriver" is-config="true" duration-ms="7572" started-at="2019-12-30T09:10:48Z" finished-at="2019-12-30T09:10:55Z">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="startDriver" is-config="true" duration-ms="12879" started-at="2020-01-02T10:43:03Z" finished-at="2020-01-02T10:43:16Z">
           <params>
             <param index="0">
               <value>
@@ -76,183 +76,183 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="CheckLogin" duration-ms="587" started-at="2019-12-30T09:10:55Z" finished-at="2019-12-30T09:10:56Z">
+        <test-method status="PASS" signature="CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="CheckLogin" duration-ms="453" started-at="2020-01-02T10:43:16Z" finished-at="2020-01-02T10:43:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLogin -->
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="CheckSaveTestCase" duration-ms="49164" started-at="2019-12-30T09:10:56Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckLogin" finished-at="2019-12-30T09:11:45Z">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="CheckSaveTestCase" duration-ms="53548" started-at="2020-01-02T10:43:17Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckLogin" finished-at="2020-01-02T10:44:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkUpdateTestCase" duration-ms="6231" started-at="2019-12-30T09:11:45Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:11:51Z">
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkUpdateTestCase" duration-ms="6211" started-at="2020-01-02T10:44:10Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:44:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkDeleteTestCase" duration-ms="10095" started-at="2019-12-30T09:11:51Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:12:01Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkDeleteTestCase" duration-ms="10082" started-at="2020-01-02T10:44:16Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:44:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkFilterArea" duration-ms="27619" started-at="2019-12-30T09:12:01Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:12:29Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkFilterArea" duration-ms="28079" started-at="2020-01-02T10:44:27Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T10:44:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="checkRetrieveAllAndPaging" duration-ms="2449" started-at="2019-12-30T09:12:29Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkFilterArea" finished-at="2019-12-30T09:12:31Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="checkRetrieveAllAndPaging" duration-ms="2409" started-at="2020-01-02T10:44:55Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkFilterArea" finished-at="2020-01-02T10:44:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
-        <test-method status="PASS" signature="stopDriver()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@651aed93]" name="stopDriver" is-config="true" duration-ms="0" started-at="2019-12-30T09:27:06Z" finished-at="2019-12-30T09:27:06Z">
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@4dd6fd0a]" name="stopDriver" is-config="true" duration-ms="2" started-at="2020-01-02T11:00:51Z" finished-at="2020-01-02T11:00:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopDriver -->
       </class> <!-- CRUDTests.AnnualIncomeCRUDTest -->
       <class name="CRUDTests.CorporateFinanciersCRUDTest">
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@2fba3fc4]" name="checkFilterArea" duration-ms="52738" depends-on-groups="CompaniesCRUDTest" started-at="2019-12-30T09:22:46Z" finished-at="2019-12-30T09:23:39Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@4bf48f6]" name="checkFilterArea" duration-ms="54771" depends-on-groups="CompaniesCRUDTest" started-at="2020-01-02T10:54:06Z" finished-at="2020-01-02T10:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@2fba3fc4]" name="checkRetrieveAllAndPaging" duration-ms="7338" started-at="2019-12-30T09:23:39Z" depends-on-methods="CRUDTests.CorporateFinanciersCRUDTest.checkFilterArea" finished-at="2019-12-30T09:23:46Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@4bf48f6]" name="checkRetrieveAllAndPaging" duration-ms="9232" started-at="2020-01-02T10:55:01Z" depends-on-methods="CRUDTests.CorporateFinanciersCRUDTest.checkFilterArea" finished-at="2020-01-02T10:55:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.CorporateFinanciersCRUDTest -->
       <class name="CRUDTests.CompaniesCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="CheckSaveTestCase" duration-ms="271198" depends-on-groups="CommitteesMeetingsCRUDTest" started-at="2019-12-30T09:17:28Z" finished-at="2019-12-30T09:21:59Z">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="CheckSaveTestCase" duration-ms="258986" depends-on-groups="CommitteesMeetingsCRUDTest" started-at="2020-01-02T10:48:58Z" finished-at="2020-01-02T10:53:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkUpdateTestCase" duration-ms="1402" started-at="2019-12-30T09:21:59Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:22:00Z">
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkUpdateTestCase" duration-ms="1460" started-at="2020-01-02T10:53:17Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:53:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkDeleteTestCase" duration-ms="15094" started-at="2019-12-30T09:22:00Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:22:16Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkDeleteTestCase" duration-ms="10077" started-at="2020-01-02T10:53:19Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:53:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkFilterArea" duration-ms="28006" started-at="2019-12-30T09:22:16Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:22:44Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkFilterArea" duration-ms="34917" started-at="2020-01-02T10:53:29Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T10:54:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@479cbee5]" name="checkRetrieveAllAndPaging" duration-ms="2439" started-at="2019-12-30T09:22:44Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkFilterArea" finished-at="2019-12-30T09:22:46Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@59e2d8e3]" name="checkRetrieveAllAndPaging" duration-ms="2490" started-at="2020-01-02T10:54:04Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkFilterArea" finished-at="2020-01-02T10:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.CompaniesCRUDTest -->
       <class name="CRUDTests.CommitteesCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="CheckSaveTestCase" duration-ms="51271" depends-on-groups="BusinessPartiesCRUDTest" started-at="2019-12-30T09:13:31Z" finished-at="2019-12-30T09:14:22Z">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="CheckSaveTestCase" duration-ms="57171" depends-on-groups="BusinessPartiesCRUDTest" started-at="2020-01-02T10:45:50Z" finished-at="2020-01-02T10:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkUpdateTestCase" duration-ms="12355" started-at="2019-12-30T09:14:22Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:14:34Z">
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkUpdateTestCase" duration-ms="12292" started-at="2020-01-02T10:46:47Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:47:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkDeleteTestCase" duration-ms="18075" started-at="2019-12-30T09:14:34Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:14:52Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkDeleteTestCase" duration-ms="18083" started-at="2020-01-02T10:47:00Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:47:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkFilterArea" duration-ms="28523" started-at="2019-12-30T09:14:52Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:15:21Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkFilterArea" duration-ms="28149" started-at="2020-01-02T10:47:18Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T10:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@1cb346ea]" name="checkRetrieveAllAndPaging" duration-ms="5614" started-at="2019-12-30T09:15:21Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkFilterArea" finished-at="2019-12-30T09:15:27Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@4c012563]" name="checkRetrieveAllAndPaging" duration-ms="5689" started-at="2020-01-02T10:47:46Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkFilterArea" finished-at="2020-01-02T10:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.CommitteesCRUDTest -->
-      <class name="CRUDTests.DocumentTypesCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="CheckSaveTestCase" duration-ms="20522" depends-on-groups="CurrenciesCRUDTest" started-at="2019-12-30T09:25:02Z" finished-at="2019-12-30T09:25:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="updateData" duration-ms="1135" started-at="2019-12-30T09:25:22Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:25:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateData -->
-        <test-method status="PASS" signature="deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="deleteData" duration-ms="10086" started-at="2019-12-30T09:25:23Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.updateData" finished-at="2019-12-30T09:25:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteData -->
-        <test-method status="PASS" signature="filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="filterByRecords" duration-ms="27890" started-at="2019-12-30T09:25:34Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.deleteData" finished-at="2019-12-30T09:26:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterByRecords -->
-        <test-method status="PASS" signature="retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@13b3d178]" name="retrieveAllAndPaging" duration-ms="5263" started-at="2019-12-30T09:26:01Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.filterByRecords" finished-at="2019-12-30T09:26:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- retrieveAllAndPaging -->
-      </class> <!-- CRUDTests.DocumentTypesCRUDTest -->
       <class name="CRUDTests.BusinessPartiesCRUDTest">
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@39d76cb5]" name="checkFilterArea" duration-ms="56580" depends-on-groups="AnnualIncomeCRUDTest" started-at="2019-12-30T09:12:31Z" finished-at="2019-12-30T09:13:28Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@4a00d9cf]" name="checkFilterArea" duration-ms="50533" depends-on-groups="AnnualIncomeCRUDTest" started-at="2020-01-02T10:44:57Z" finished-at="2020-01-02T10:45:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@39d76cb5]" name="checkRetrieveAllAndPaging" duration-ms="2580" started-at="2019-12-30T09:13:28Z" depends-on-methods="CRUDTests.BusinessPartiesCRUDTest.checkFilterArea" finished-at="2019-12-30T09:13:31Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@4a00d9cf]" name="checkRetrieveAllAndPaging" duration-ms="2573" started-at="2020-01-02T10:45:48Z" depends-on-methods="CRUDTests.BusinessPartiesCRUDTest.checkFilterArea" finished-at="2020-01-02T10:45:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.BusinessPartiesCRUDTest -->
-      <class name="CRUDTests.CurrenciesCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="CheckSaveTestCase" duration-ms="20580" depends-on-groups="CorporateFinanciersCRUDTest" started-at="2019-12-30T09:23:46Z" finished-at="2019-12-30T09:24:07Z">
+      <class name="CRUDTests.DocumentTypesCRUDTest">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="CheckSaveTestCase" duration-ms="23867" depends-on-groups="CurrenciesCRUDTest" started-at="2020-01-02T10:56:48Z" finished-at="2020-01-02T10:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkUpdateTestCase" duration-ms="11717" started-at="2019-12-30T09:24:07Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:24:18Z">
+        <test-method status="PASS" signature="updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="updateData" duration-ms="1113" started-at="2020-01-02T10:57:12Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:57:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateData -->
+        <test-method status="PASS" signature="deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="deleteData" duration-ms="15090" started-at="2020-01-02T10:57:13Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.updateData" finished-at="2020-01-02T10:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method status="PASS" signature="filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="filterByRecords" duration-ms="49338" started-at="2020-01-02T10:57:28Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.deleteData" finished-at="2020-01-02T10:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByRecords -->
+        <test-method status="PASS" signature="retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@24c4ddae]" name="retrieveAllAndPaging" duration-ms="32161" started-at="2020-01-02T10:58:18Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.filterByRecords" finished-at="2020-01-02T10:58:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveAllAndPaging -->
+      </class> <!-- CRUDTests.DocumentTypesCRUDTest -->
+      <class name="CRUDTests.CurrenciesCRUDTest">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="CheckSaveTestCase" duration-ms="21833" depends-on-groups="CorporateFinanciersCRUDTest" started-at="2020-01-02T10:55:10Z" finished-at="2020-01-02T10:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkUpdateTestCase" duration-ms="11448" started-at="2020-01-02T10:55:32Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:55:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkDeleteTestCase" duration-ms="8156" started-at="2019-12-30T09:24:18Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:24:27Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkDeleteTestCase" duration-ms="8157" started-at="2020-01-02T10:55:43Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkFilterArea" duration-ms="32773" started-at="2019-12-30T09:24:27Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:24:59Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkFilterArea" duration-ms="54089" started-at="2020-01-02T10:55:52Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T10:56:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@62833051]" name="checkRetrieveAllAndPaging" duration-ms="2476" started-at="2019-12-30T09:24:59Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkFilterArea" finished-at="2019-12-30T09:25:02Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@1c852c0f]" name="checkRetrieveAllAndPaging" duration-ms="2490" started-at="2020-01-02T10:56:46Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkFilterArea" finished-at="2020-01-02T10:56:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.CurrenciesCRUDTest -->
       <class name="CRUDTests.IDTypesCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="CheckSaveTestCase" duration-ms="18239" depends-on-groups="DocumentTypesCRUDTest" started-at="2019-12-30T09:26:07Z" finished-at="2019-12-30T09:26:25Z">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="CheckSaveTestCase" duration-ms="29534" depends-on-groups="DocumentTypesCRUDTest" started-at="2020-01-02T10:58:50Z" finished-at="2020-01-02T10:59:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkUpdateTestCase" duration-ms="1159" started-at="2019-12-30T09:26:25Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:26:26Z">
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkUpdateTestCase" duration-ms="1136" started-at="2020-01-02T10:59:19Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkDeleteTestCase" duration-ms="10075" started-at="2019-12-30T09:26:26Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:26:36Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkDeleteTestCase" duration-ms="15076" started-at="2020-01-02T10:59:20Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:59:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkFilterArea" duration-ms="27347" started-at="2019-12-30T09:26:36Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:27:04Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkFilterArea" duration-ms="47286" started-at="2020-01-02T10:59:36Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T11:00:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@6a57ae10]" name="checkRetrieveAllAndPaging" duration-ms="2338" started-at="2019-12-30T09:27:04Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkFilterArea" finished-at="2019-12-30T09:27:06Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@766653e6]" name="checkRetrieveAllAndPaging" duration-ms="27576" started-at="2020-01-02T11:00:23Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkFilterArea" finished-at="2020-01-02T11:00:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
       </class> <!-- CRUDTests.IDTypesCRUDTest -->
       <class name="CRUDTests.CommitteesMeetingsCRUDTest">
-        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="CheckSaveTestCase" duration-ms="25061" depends-on-groups="CommitteesCRUDTest" started-at="2019-12-30T09:15:27Z" finished-at="2019-12-30T09:15:52Z">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="CheckSaveTestCase" duration-ms="20439" depends-on-groups="CommitteesCRUDTest" started-at="2020-01-02T10:47:52Z" finished-at="2020-01-02T10:48:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckSaveTestCase -->
-        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkUpdateTestCase" duration-ms="1109" started-at="2019-12-30T09:15:52Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.CheckSaveTestCase" finished-at="2019-12-30T09:15:53Z">
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkUpdateTestCase" duration-ms="1111" started-at="2020-01-02T10:48:12Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.CheckSaveTestCase" finished-at="2020-01-02T10:48:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUpdateTestCase -->
-        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkDeleteTestCase" duration-ms="18087" started-at="2019-12-30T09:15:53Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkUpdateTestCase" finished-at="2019-12-30T09:16:11Z">
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkDeleteTestCase" duration-ms="13077" started-at="2020-01-02T10:48:13Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkUpdateTestCase" finished-at="2020-01-02T10:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDeleteTestCase -->
-        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkFilterArea" duration-ms="49397" started-at="2019-12-30T09:16:11Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkDeleteTestCase" finished-at="2019-12-30T09:17:00Z">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkFilterArea" duration-ms="29385" started-at="2020-01-02T10:48:26Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkDeleteTestCase" finished-at="2020-01-02T10:48:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFilterArea -->
-        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@e3c0e40]" name="checkRetrieveAllAndPaging" duration-ms="27540" started-at="2019-12-30T09:17:00Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkFilterArea" finished-at="2019-12-30T09:17:28Z">
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@329dbdbf]" name="checkRetrieveAllAndPaging" duration-ms="2438" started-at="2020-01-02T10:48:56Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkFilterArea" finished-at="2020-01-02T10:48:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkRetrieveAllAndPaging -->
