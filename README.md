@@ -10,4 +10,4 @@ and using BDD and allure reports
 -bdd
 -allure report
 
-Its patch1_CRUD project for using github and selenium
+It's patch1_CRUD project for using github and selenium
