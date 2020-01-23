@@ -53,7 +53,7 @@ public class CustomersCRUDPage extends PageBase {
 
 	//Start Point
 	public void FillModuleFields(String moduleID,String ParentframeID)
-			throws InterruptedException, FileNotFoundException, IOException, ParseException 
+			throws InterruptedException, FileNotFoundException, IOException, ParseException
 
 	{
 		CRUDMainObject = new CRUDMainPage(driver1);

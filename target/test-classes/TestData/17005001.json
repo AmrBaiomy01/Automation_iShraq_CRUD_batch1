@@ -1,0 +1,28 @@
+[
+  {
+    "ModuleID": 17005001,
+    "BlockName": "Master Block",
+    "BlockView": "CAT_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V0",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "CAT_TYPE",
+        "Caption": "Customer Type",
+        "Value": "Individual"
+      },
+      {
+        "Field": "CAT_LATIN_NAME",
+        "Caption": "Name",
+        "Value": "Customer Scoring"
+      },
+      {
+        "Field": "CAT_ARABIC_NAME",
+        "Caption": "Other Name",
+        "Value": "Customer Scoring Arabic"
+      }
+    ]
+  }
+]

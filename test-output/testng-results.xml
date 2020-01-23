@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="24" failed="1" ignored="16" total="56" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="376853" started-at="2020-01-23T09:47:17Z" finished-at="2020-01-23T09:53:34Z">
+    <groups>
+      <group name="CurrenciesCRUDTest">
+        <method signature="CurrenciesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="CheckSaveTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkUpdateTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkDeleteTestCase" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkFilterArea" class="CRUDTests.CurrenciesCRUDTest"/>
+        <method signature="CurrenciesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkRetrieveAllAndPaging" class="CRUDTests.CurrenciesCRUDTest"/>
+      </group> <!-- CurrenciesCRUDTest -->
+      <group name="DocumentTypesCRUDTest">
+        <method signature="DocumentTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="CheckSaveTestCase" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="updateData" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="deleteData" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="filterByRecords" class="CRUDTests.DocumentTypesCRUDTest"/>
+        <method signature="DocumentTypesCRUDTest.retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="retrieveAllAndPaging" class="CRUDTests.DocumentTypesCRUDTest"/>
+      </group> <!-- DocumentTypesCRUDTest -->
+      <group name="CommitteesCRUDTest">
+        <method signature="CommitteesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="CheckSaveTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkUpdateTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkDeleteTestCase" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkFilterArea" class="CRUDTests.CommitteesCRUDTest"/>
+        <method signature="CommitteesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesCRUDTest"/>
+      </group> <!-- CommitteesCRUDTest -->
+      <group name="CommitteesMeetingsCRUDTest">
+        <method signature="CommitteesMeetingsCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="CheckSaveTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkUpdateTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkDeleteTestCase" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkFilterArea" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+        <method signature="CommitteesMeetingsCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkRetrieveAllAndPaging" class="CRUDTests.CommitteesMeetingsCRUDTest"/>
+      </group> <!-- CommitteesMeetingsCRUDTest -->
+      <group name="AnnualIncomeCRUDTest">
+        <method signature="AnnualIncomeCRUDTest.CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="CheckLogin" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="CheckSaveTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkUpdateTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkDeleteTestCase" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkFilterArea" class="CRUDTests.AnnualIncomeCRUDTest"/>
+        <method signature="AnnualIncomeCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkRetrieveAllAndPaging" class="CRUDTests.AnnualIncomeCRUDTest"/>
+      </group> <!-- AnnualIncomeCRUDTest -->
+      <group name="BusinessPartiesCRUDTest">
+        <method signature="BusinessPartiesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@159f197]" name="checkFilterArea" class="CRUDTests.BusinessPartiesCRUDTest"/>
+        <method signature="BusinessPartiesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@159f197]" name="checkRetrieveAllAndPaging" class="CRUDTests.BusinessPartiesCRUDTest"/>
+      </group> <!-- BusinessPartiesCRUDTest -->
+      <group name="CorporateFinanciersCRUDTest">
+        <method signature="CorporateFinanciersCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8]" name="checkFilterArea" class="CRUDTests.CorporateFinanciersCRUDTest"/>
+        <method signature="CorporateFinanciersCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8]" name="checkRetrieveAllAndPaging" class="CRUDTests.CorporateFinanciersCRUDTest"/>
+      </group> <!-- CorporateFinanciersCRUDTest -->
+      <group name="IDTypesCRUDTest">
+        <method signature="IDTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="CheckSaveTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkUpdateTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkDeleteTestCase" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkFilterArea" class="CRUDTests.IDTypesCRUDTest"/>
+        <method signature="IDTypesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkRetrieveAllAndPaging" class="CRUDTests.IDTypesCRUDTest"/>
+      </group> <!-- IDTypesCRUDTest -->
+      <group name="CompaniesCRUDTest">
+        <method signature="CompaniesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="CheckSaveTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkUpdateTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkDeleteTestCase" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkFilterArea" class="CRUDTests.CompaniesCRUDTest"/>
+        <method signature="CompaniesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkRetrieveAllAndPaging" class="CRUDTests.CompaniesCRUDTest"/>
+      </group> <!-- CompaniesCRUDTest -->
+    </groups>
+    <test name="Suite" duration-ms="376853" started-at="2020-01-23T09:47:17Z" finished-at="2020-01-23T09:53:34Z">
+      <class name="CRUDTests.AnnualIncomeCRUDTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="startDriver" is-config="true" duration-ms="5314" started-at="2020-01-23T09:47:12Z" finished-at="2020-01-23T09:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="CheckLogin()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="CheckLogin" duration-ms="455" started-at="2020-01-23T09:47:17Z" finished-at="2020-01-23T09:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLogin -->
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="CheckSaveTestCase" duration-ms="60812" started-at="2020-01-23T09:47:18Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckLogin" finished-at="2020-01-23T09:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkUpdateTestCase" duration-ms="6242" started-at="2020-01-23T09:48:18Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkDeleteTestCase" duration-ms="10097" started-at="2020-01-23T09:48:25Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkFilterArea" duration-ms="27678" started-at="2020-01-23T09:48:35Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="checkRetrieveAllAndPaging" duration-ms="2409" started-at="2020-01-23T09:49:02Z" depends-on-methods="CRUDTests.AnnualIncomeCRUDTest.checkFilterArea" finished-at="2020-01-23T09:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:CRUDTests.AnnualIncomeCRUDTest@769e7ee8]" name="stopDriver" is-config="true" duration-ms="1" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- CRUDTests.AnnualIncomeCRUDTest -->
+      <class name="CRUDTests.CorporateFinanciersCRUDTest">
+        <test-method status="SKIP" signature="checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8]" name="checkFilterArea" duration-ms="0" depends-on-groups="CompaniesCRUDTest" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CorporateFinanciersCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8] depends on not successfully finished methods in group "CompaniesCRUDTest"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CorporateFinanciersCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8] depends on not successfully finished methods in group "CompaniesCRUDTest"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="SKIP" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8]" name="checkRetrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CorporateFinanciersCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CorporateFinanciersCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CorporateFinanciersCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CorporateFinanciersCRUDTest@49c386c8] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.CorporateFinanciersCRUDTest -->
+      <class name="CRUDTests.CompaniesCRUDTest">
+        <test-method status="SKIP" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="CheckSaveTestCase" duration-ms="0" depends-on-groups="CommitteesMeetingsCRUDTest" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CompaniesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods in group "CommitteesMeetingsCRUDTest"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CompaniesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods in group "CommitteesMeetingsCRUDTest"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="SKIP" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkUpdateTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CompaniesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CompaniesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="SKIP" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkDeleteTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CompaniesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CompaniesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="SKIP" signature="checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkFilterArea" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CompaniesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CompaniesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="SKIP" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382]" name="checkRetrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CompaniesCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CompaniesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CompaniesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CompaniesCRUDTest@7f010382] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.CompaniesCRUDTest -->
+      <class name="CRUDTests.CommitteesCRUDTest">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="CheckSaveTestCase" duration-ms="79149" depends-on-groups="BusinessPartiesCRUDTest" started-at="2020-01-23T09:50:16Z" finished-at="2020-01-23T09:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkUpdateTestCase" duration-ms="17677" started-at="2020-01-23T09:51:36Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:51:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="PASS" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkDeleteTestCase" duration-ms="23093" started-at="2020-01-23T09:51:53Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkFilterArea" duration-ms="48874" started-at="2020-01-23T09:52:16Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesCRUDTest@7c469c48]" name="checkRetrieveAllAndPaging" duration-ms="6058" started-at="2020-01-23T09:53:05Z" depends-on-methods="CRUDTests.CommitteesCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.CommitteesCRUDTest -->
+      <class name="CRUDTests.BusinessPartiesCRUDTest">
+        <test-method status="PASS" signature="checkFilterArea()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@159f197]" name="checkFilterArea" duration-ms="68764" depends-on-groups="AnnualIncomeCRUDTest" started-at="2020-01-23T09:49:05Z" finished-at="2020-01-23T09:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="PASS" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.BusinessPartiesCRUDTest@159f197]" name="checkRetrieveAllAndPaging" duration-ms="2742" started-at="2020-01-23T09:50:14Z" depends-on-methods="CRUDTests.BusinessPartiesCRUDTest.checkFilterArea" finished-at="2020-01-23T09:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.BusinessPartiesCRUDTest -->
+      <class name="CRUDTests.DocumentTypesCRUDTest">
+        <test-method status="SKIP" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="CheckSaveTestCase" duration-ms="0" depends-on-groups="CurrenciesCRUDTest" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DocumentTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods in group "CurrenciesCRUDTest"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DocumentTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods in group "CurrenciesCRUDTest"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="SKIP" signature="updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="updateData" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DocumentTypesCRUDTest.updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DocumentTypesCRUDTest.updateData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateData -->
+        <test-method status="SKIP" signature="deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="deleteData" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.updateData" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DocumentTypesCRUDTest.deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DocumentTypesCRUDTest.deleteData()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method status="SKIP" signature="filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="filterByRecords" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.deleteData" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DocumentTypesCRUDTest.filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DocumentTypesCRUDTest.filterByRecords()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByRecords -->
+        <test-method status="SKIP" signature="retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9]" name="retrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.DocumentTypesCRUDTest.filterByRecords" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DocumentTypesCRUDTest.retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DocumentTypesCRUDTest.retrieveAllAndPaging()[pri:0, instance:CRUDTests.DocumentTypesCRUDTest@59d016c9] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveAllAndPaging -->
+      </class> <!-- CRUDTests.DocumentTypesCRUDTest -->
+      <class name="CRUDTests.CurrenciesCRUDTest">
+        <test-method status="SKIP" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="CheckSaveTestCase" duration-ms="0" depends-on-groups="CorporateFinanciersCRUDTest" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CurrenciesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods in group "CorporateFinanciersCRUDTest"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CurrenciesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods in group "CorporateFinanciersCRUDTest"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="SKIP" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkUpdateTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CurrenciesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CurrenciesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="SKIP" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkDeleteTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CurrenciesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CurrenciesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="SKIP" signature="checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkFilterArea" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CurrenciesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CurrenciesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="SKIP" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20]" name="checkRetrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CurrenciesCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CurrenciesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CurrenciesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CurrenciesCRUDTest@5ccddd20] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.CurrenciesCRUDTest -->
+      <class name="CRUDTests.IDTypesCRUDTest">
+        <test-method status="SKIP" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="CheckSaveTestCase" duration-ms="0" depends-on-groups="DocumentTypesCRUDTest" started-at="2020-01-23T09:53:34Z" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IDTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods in group "DocumentTypesCRUDTest"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IDTypesCRUDTest.CheckSaveTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods in group "DocumentTypesCRUDTest"
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="SKIP" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkUpdateTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IDTypesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IDTypesCRUDTest.checkUpdateTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="SKIP" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkDeleteTestCase" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IDTypesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IDTypesCRUDTest.checkDeleteTestCase()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="SKIP" signature="checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkFilterArea" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IDTypesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IDTypesCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="SKIP" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7]" name="checkRetrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.IDTypesCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method IDTypesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method IDTypesCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.IDTypesCRUDTest@7c0c77c7] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.IDTypesCRUDTest -->
+      <class name="CRUDTests.CommitteesMeetingsCRUDTest">
+        <test-method status="PASS" signature="CheckSaveTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="CheckSaveTestCase" duration-ms="20984" depends-on-groups="CommitteesCRUDTest" started-at="2020-01-23T09:53:11Z" finished-at="2020-01-23T09:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSaveTestCase -->
+        <test-method status="PASS" signature="checkUpdateTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkUpdateTestCase" duration-ms="1106" started-at="2020-01-23T09:53:32Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.CheckSaveTestCase" finished-at="2020-01-23T09:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUpdateTestCase -->
+        <test-method status="FAIL" signature="checkDeleteTestCase()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkDeleteTestCase" duration-ms="93" started-at="2020-01-23T09:53:33Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkUpdateTestCase" finished-at="2020-01-23T09:53:33Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="image" name="V2DeleteButton" id="V2DeleteButton" accesskey="r" title="Delete" onmouseout="this.src.replace('over','')" onmouseover="this.src.replace('.gif','over.gif')" src="../Images/ButtonBarDelete.gif" alt="Delete" onclick="return (  confirm(' Are you sure you want to delete the selected records?'));"> is not clickable at point (69, 44). Other element would receive the click: <div style="position:absolute; width:100%;height:1000px;background-color:#000000;filter:alpha(opacity=10);opacity:0.20;-moz-opacity:0.20;padding:20px;"></div>
+  (Session info: chrome=79.0.3945.88)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EGDM1-ABAIOMY', ip: '192.168.113.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\AMR~1.BAI\AppData\...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:23486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: c54dd4a29750b91476279b3d6fedb390]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="image" name="V2DeleteButton" id="V2DeleteButton" accesskey="r" title="Delete" onmouseout="this.src.replace('over','')" onmouseover="this.src.replace('.gif','over.gif')" src="../Images/ButtonBarDelete.gif" alt="Delete" onclick="return (  confirm(' Are you sure you want to delete the selected records?'));"> is not clickable at point (69, 44). Other element would receive the click: <div style="position:absolute; width:100%;height:1000px;background-color:#000000;filter:alpha(opacity=10);opacity:0.20;-moz-opacity:0.20;padding:20px;"></div>
+  (Session info: chrome=79.0.3945.88)
+  (Driver info: chromedriver=71.0.3578.33 (269aa0e3f0db08097f0fe231c7e6be200b6939f7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EGDM1-ABAIOMY', ip: '192.168.113.60', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 71.0.3578.33 (269aa0e3f0db0..., userDataDir: C:\Users\AMR~1.BAI\AppData\...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:23486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 79.0.3945.88, webStorageEnabled: true}
+Session ID: c54dd4a29750b91476279b3d6fedb390
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at Pages.PageBase.clickButton(PageBase.java:64)
+at CRUDPages.CRUDMainPage.deleteData(CRUDMainPage.java:183)
+at CRUDPages.CommitteesmeetingsCRUDPage.deleteData(CommitteesmeetingsCRUDPage.java:103)
+at CRUDTests.CommitteesMeetingsCRUDTest.checkDeleteTestCase(CommitteesMeetingsCRUDTest.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDeleteTestCase -->
+        <test-method status="SKIP" signature="checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkFilterArea" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkDeleteTestCase" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CommitteesMeetingsCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CommitteesMeetingsCRUDTest.checkFilterArea()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFilterArea -->
+        <test-method status="SKIP" signature="checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091]" name="checkRetrieveAllAndPaging" duration-ms="0" started-at="2020-01-23T09:53:34Z" depends-on-methods="CRUDTests.CommitteesMeetingsCRUDTest.checkFilterArea" finished-at="2020-01-23T09:53:34Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CommitteesMeetingsCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CommitteesMeetingsCRUDTest.checkRetrieveAllAndPaging()[pri:0, instance:CRUDTests.CommitteesMeetingsCRUDTest@6ac13091] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRetrieveAllAndPaging -->
+      </class> <!-- CRUDTests.CommitteesMeetingsCRUDTest -->
+    </test> <!-- Suite -->
+  </suite> <!-- Default suite -->
+</testng-results>

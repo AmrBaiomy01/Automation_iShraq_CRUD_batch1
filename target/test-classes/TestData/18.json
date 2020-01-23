@@ -1,0 +1,48 @@
+[
+  {
+    "ModuleID": 18,
+    "BlockName": "Master Block",
+    "BlockView": "SEC_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V1",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "SEC_LATIN_NAME",
+        "Caption": "Name",
+        "Value": "CRUD_Sector"
+      },
+      {
+        "Field": "TEMP_CODE",
+        "Caption": "Fin. Template",
+        "Value": ""
+      },
+      {
+        "Field": "SEC_CODE_PARENT",
+        "Caption": "Parent Sector",
+        "Value": ""
+      },
+      {
+        "Field": "SEC_CODE",
+        "Caption": "Code",
+        "Value": ""
+      },
+      {
+        "Field": "SEC_CATEGORY",
+        "Caption": "Category",
+        "Value": "N"
+      },
+      {
+        "Field": "SEC_ARABIC_NAME",
+        "Caption": "Other Name",
+        "Value": ""
+      },
+      {
+        "Field": "IS_ACTIVE",
+        "Caption": "Is Active",
+        "Value": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "ModuleID": 150012,
+    "BlockName": "Master Block",
+    "BlockView": "ITEM_CATEGORIES_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V1",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "IC_TYPE",
+        "Caption": "Type",
+        "Value": ""
+      },
+      {
+        "Field": "IC_CODE_BELONG_TO",
+        "Caption": "Belongs To",
+        "Value": ""
+      },
+      {
+        "Field": "IC_LATIN_NAME",
+        "Caption": "Latin Name",
+        "Value": "Items Categories CRUD"
+      },
+      {
+        "Field": "IC_ARABIC_NAME",
+        "Caption": "Arabic Name",
+        "Value": "Items Categories CRUD"
+      }
+    ]
+  },
+  {
+    "ModuleID": 150012,
+    "BlockName": "Attributes",
+    "BlockView": "ICATR_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V0",
+    "BlockOrder": 2.0,
+    "BlockParentView": "ITEM_CATEGORIES_FE_VW",
+    "Fields": [
+      {
+        "Field": "ICA_CODE",
+        "Caption": "Common Attribute Code",
+        "Value": ""
+      },
+      {
+        "Field": "ICATR_DISPLAY_ORDER",
+        "Caption": "Display Order",
+        "Value": ""
+      }
+    ]
+  }
+]

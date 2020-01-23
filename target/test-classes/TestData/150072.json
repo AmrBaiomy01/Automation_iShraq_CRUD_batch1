@@ -1,0 +1,217 @@
+[
+  {
+    "ModuleID": 150072,
+    "BlockName": "Master Block",
+    "BlockView": "FIN_WFN_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V3",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "WN_MAX_RSP_DAYS",
+        "Caption": "Max Response Days",
+        "Value": ""
+      },
+      {
+        "Field": "WN_IS_MAIN",
+        "Caption": "Is Main",
+        "Value": ""
+      },
+      {
+        "Field": "WN_FINAL",
+        "Caption": "Final Decision",
+        "Value": ""
+      },
+      {
+        "Field": "WN_WORKFLOW_NAME",
+        "Caption": "Workflow Name",
+        "Value": ""
+      },
+      {
+        "Field": "WN_NODE_TYPE",
+        "Caption": "1st Node Type",
+        "Value": "C"
+      },
+      {
+        "Field": "WN_NAME",
+        "Caption": "1st Node Name",
+        "Value": "Test_CRUD"
+      },
+      {
+        "Field": "WN_APPROVED_BY",
+        "Caption": "Approved By",
+        "Value": ""
+      },
+      {
+        "Field": "WN_ALLOWED_FIELDS",
+        "Caption": "Allowed Fields",
+        "Value": ""
+      },
+      {
+        "Field": "WN_EMP_ROLE",
+        "Caption": "Employee Role",
+        "Value": ""
+      },
+      {
+        "Field": "WN_ASSIGN_ALL",
+        "Caption": "Assign All",
+        "Value": ""
+      },
+      {
+        "Field": "DEPT_CODE",
+        "Caption": "Department Code",
+        "Value": ""
+      },
+      {
+        "Field": "CMT_CODE",
+        "Caption": "Committee Code",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 150072,
+    "BlockName": "Transactions",
+    "BlockView": "FIN_WF_TRANACTIONS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V9",
+    "BlockOrder": 2.0,
+    "BlockParentView": "FIN_WFN_FE_VW",
+    "Fields": [
+      {
+        "Field": "TRX_VIEW_NAME",
+        "Caption": "Name",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 150072,
+    "BlockName": "Control Factor",
+    "BlockView": "FIN_WF_CONTROL_FACTOR_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V5",
+    "BlockOrder": 3.0,
+    "BlockParentView": "FIN_WFN_FE_VW",
+    "Fields": [
+      {
+        "Field": "WFV_AMOUNT",
+        "Caption": "Up to",
+        "Value": ""
+      },
+      {
+        "Field": "WCF_FIELD_CAPTION",
+        "Caption": "Caption",
+        "Value": ""
+      },
+      {
+        "Field": "ITEM_NAME",
+        "Caption": "List Value",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 150072,
+    "BlockName": "Approvers",
+    "BlockView": "FIN_WF_APPROVERS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V4",
+    "BlockOrder": 4.0,
+    "BlockParentView": "FIN_WFN_FE_VW",
+    "Fields": [
+      {
+        "Field": "USER_ID",
+        "Caption": "User Code",
+        "Value": ""
+      },
+      {
+        "Field": "IS_MAIN",
+        "Caption": "Is Main",
+        "Value": ""
+      },
+      {
+        "Field": "CODE_PK",
+        "Caption": "Code",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 150072,
+    "BlockName": "Nodes",
+    "BlockView": "FIN_WF_NODES_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V7",
+    "BlockOrder": 5.0,
+    "BlockParentView": "FIN_WFN_FE_VW",
+    "Fields": [
+      {
+        "Field": "WN_NAME",
+        "Caption": "Name",
+        "Value": ""
+      },
+      {
+        "Field": "WN_MAX_RSP_DAYS",
+        "Caption": "Max Response Days",
+        "Value": ""
+      },
+      {
+        "Field": "WN_IS_MAIN",
+        "Caption": "Is Main",
+        "Value": ""
+      },
+      {
+        "Field": "WN_FINAL",
+        "Caption": "Final Decision",
+        "Value": ""
+      },
+      {
+        "Field": "WN_ALLOWED_FIELDS",
+        "Caption": "Allowed Fields",
+        "Value": ""
+      },
+      {
+        "Field": "WN_EMP_ROLE",
+        "Caption": "Employee Role",
+        "Value": ""
+      },
+      {
+        "Field": "WN_ASSIGN_ALL",
+        "Caption": "Assign All",
+        "Value": ""
+      },
+      {
+        "Field": "DEPT_CODE",
+        "Caption": "Department Code",
+        "Value": ""
+      },
+      {
+        "Field": "WN_NODE_TYPE",
+        "Caption": "Node Type",
+        "Value": ""
+      },
+      {
+        "Field": "WN_CODE",
+        "Caption": "Code",
+        "Value": ""
+      },
+      {
+        "Field": "WN_APPROVED_BY",
+        "Caption": "Approved By",
+        "Value": ""
+      },
+      {
+        "Field": "CMT_NAME",
+        "Caption": "Committee Name",
+        "Value": ""
+      },
+      {
+        "Field": "CMT_CODE",
+        "Caption": "Committee Code",
+        "Value": ""
+      }
+    ]
+  }
+]

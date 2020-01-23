@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]" parallel="classes">
+  <test thread-count="5" name="Suite(failed)" parallel="tests">
+    <classes>
+      <class name="CRUDTests.CommitteesMeetingsCRUDTest">
+        <methods>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="stopDriver"/>
+          <include name="checkUpdateTestCase"/>
+          <include name="checkFilterArea"/>
+          <include name="startDriver"/>
+          <include name="CheckSaveTestCase"/>
+          <include name="checkDeleteTestCase"/>
+        </methods>
+      </class> <!-- CRUDTests.CommitteesMeetingsCRUDTest -->
+      <class name="CRUDTests.BusinessPartiesCRUDTest">
+        <methods>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="checkFilterArea"/>
+        </methods>
+      </class> <!-- CRUDTests.BusinessPartiesCRUDTest -->
+      <class name="CRUDTests.DocumentTypesCRUDTest">
+        <methods>
+          <include name="updateData"/>
+          <include name="stopDriver"/>
+          <include name="CheckSaveTestCase"/>
+          <include name="retrieveAllAndPaging"/>
+          <include name="deleteData"/>
+          <include name="startDriver"/>
+          <include name="filterByRecords"/>
+        </methods>
+      </class> <!-- CRUDTests.DocumentTypesCRUDTest -->
+      <class name="CRUDTests.CurrenciesCRUDTest">
+        <methods>
+          <include name="checkDeleteTestCase"/>
+          <include name="stopDriver"/>
+          <include name="checkUpdateTestCase"/>
+          <include name="startDriver"/>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="CheckSaveTestCase"/>
+          <include name="checkFilterArea"/>
+        </methods>
+      </class> <!-- CRUDTests.CurrenciesCRUDTest -->
+      <class name="CRUDTests.CompaniesCRUDTest">
+        <methods>
+          <include name="checkDeleteTestCase"/>
+          <include name="stopDriver"/>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="startDriver"/>
+          <include name="checkUpdateTestCase"/>
+          <include name="checkFilterArea"/>
+          <include name="CheckSaveTestCase"/>
+        </methods>
+      </class> <!-- CRUDTests.CompaniesCRUDTest -->
+      <class name="CRUDTests.CorporateFinanciersCRUDTest">
+        <methods>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="stopDriver"/>
+          <include name="checkFilterArea"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- CRUDTests.CorporateFinanciersCRUDTest -->
+      <class name="CRUDTests.AnnualIncomeCRUDTest">
+        <methods>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="stopDriver"/>
+          <include name="CheckSaveTestCase"/>
+          <include name="checkDeleteTestCase"/>
+          <include name="startDriver"/>
+          <include name="checkFilterArea"/>
+          <include name="CheckLogin"/>
+          <include name="checkUpdateTestCase"/>
+        </methods>
+      </class> <!-- CRUDTests.AnnualIncomeCRUDTest -->
+      <class name="CRUDTests.IDTypesCRUDTest">
+        <methods>
+          <include name="checkFilterArea"/>
+          <include name="stopDriver"/>
+          <include name="checkUpdateTestCase"/>
+          <include name="startDriver"/>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="checkDeleteTestCase"/>
+          <include name="CheckSaveTestCase"/>
+        </methods>
+      </class> <!-- CRUDTests.IDTypesCRUDTest -->
+      <class name="CRUDTests.CommitteesCRUDTest">
+        <methods>
+          <include name="CheckSaveTestCase"/>
+          <include name="checkDeleteTestCase"/>
+          <include name="stopDriver"/>
+          <include name="startDriver"/>
+          <include name="checkRetrieveAllAndPaging"/>
+          <include name="checkUpdateTestCase"/>
+          <include name="checkFilterArea"/>
+        </methods>
+      </class> <!-- CRUDTests.CommitteesCRUDTest -->
+    </classes>
+  </test> <!-- Suite(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

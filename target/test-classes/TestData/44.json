@@ -1,0 +1,59 @@
+[
+  {
+    "ModuleID": 44,
+    "BlockName": "Master Block",
+    "BlockView": "REG_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V1",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "REG_SHORT_LATIN_NAME",
+        "Caption": "Short Name",
+        "Value": "Short Name"
+      },
+      {
+        "Field": "REG_L_NAME",
+        "Caption": "Name",
+        "Value": "Regions CRUD"
+      },
+      {
+        "Field": "REG_CODE_BELONGS_TO",
+        "Caption": "Belongs To",
+        "Value": ""
+      },
+      {
+        "Field": "REG_A_NAME",
+        "Caption": "Other Name",
+        "Value": ""
+      },
+      {
+        "Field": "IS_ACTIVE",
+        "Caption": "Is Active",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 44,
+    "BlockName": "Sub Regions",
+    "BlockView": "REG_DET_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V0",
+    "BlockOrder": 2.0,
+    "BlockParentView": "REG_FE_VW",
+    "Fields": [
+      {
+        "Field": "REG_L_NAME",
+        "Caption": "Name",
+        "Value": ""
+      },
+      {
+        "Field": "REG_CODE",
+        "Caption": "Code",
+        "Value": ""
+      }
+    ]
+  }
+]

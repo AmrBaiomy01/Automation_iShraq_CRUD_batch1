@@ -1,0 +1,710 @@
+[
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Master Block",
+    "BlockView": "FCON_REQUEST_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V18",
+    "BlockOrder": 1.0,
+    "BlockParentView": null,
+    "Fields": [
+      {
+        "Field": "SUB_FPROD_LATIN_NAME",
+        "Caption": "Sub. Product Name",
+        "Value": ""
+      },
+      {
+        "Field": "PURCHASE_PROMISE_DATE",
+        "Caption": "Purchase Promise",
+        "Value": ""
+      },
+      {
+        "Field": "PROJECT_ACTIVITY",
+        "Caption": "Project Activity",
+        "Value": ""
+      },
+      {
+        "Field": "IFIN_CODE",
+        "Caption": "IFIN Code",
+        "Value": ""
+      },
+      {
+        "Field": "FPROD_SUB_CODE",
+        "Caption": "Sub. Product",
+        "Value": ""
+      },
+      {
+        "Field": "FIN_DEC",
+        "Caption": "Final Decision Maintained",
+        "Value": ""
+      },
+      {
+        "Field": "FCPJ_CODE",
+        "Caption": "Project Code",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_VALUE_DATE",
+        "Caption": "Value Date",
+        "Value": "01012020"
+      },
+	  {
+        "Field": "CUS_CODE",
+        "Caption": "Customer Code",
+        "Value": "11"
+      },
+	  {
+        "Field": "FPROD_CODE1",
+        "Caption": "Product Code",
+        "Value": "1010"
+      },
+      {
+        "Field": "FCON_SERIAL",
+        "Caption": "Serial No",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_OPPORTUNITY_AMOUNT",
+        "Caption": "Opportunity Amount",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_MGMT_FEES_RATIO",
+        "Caption": "Management Fees (%)",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_IN_KIND",
+        "Caption": "In-kind contribution",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CUS_CONT_RATIO",
+        "Caption": "Customer Contribution (%)",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CUSTOMER_PROFIT_RATIO",
+        "Caption": "Customer Management Fees (%)",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CO_MGMT_RATIO",
+        "Caption": "Company Management Fees (%)",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CONTRIBUTION_RATIO",
+        "Caption": "Company Contribution (%)",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CONTRACT_DATE",
+        "Caption": "Requested Date",
+        "Value": "01012018"
+      },
+      {
+        "Field": "FCON_CODE_PARENT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "CUS_CODE_INS",
+        "Caption": "Insurance Company Code",
+        "Value": ""
+      },
+      {
+        "Field": "CUR_LATIN_NAME",
+        "Caption": "Currency Name",
+        "Value": ""
+      },
+      {
+        "Field": "CUR_CODE2",
+        "Caption": "Currency Code",
+        "Value": "EGP"
+      },
+      {
+        "Field": "BRO_LATIN_NAME_VENDOR",
+        "Caption": "Selling Broker Name",
+        "Value": ""
+      },
+      {
+        "Field": "BRO_CODE_VENDOR",
+        "Caption": "Selling Broker Code",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Guarantors",
+    "BlockView": "FCON_GURANTORS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V4",
+    "BlockOrder": 2.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "CPRT_INSTALLMENT_PAYER",
+        "Caption": "Installment Payer",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Financers",
+    "BlockView": "FCON_FINANCERS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V3",
+    "BlockOrder": 3.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "CPRT_MGMT_FEES_PER",
+        "Caption": "Management Fees (%)",
+        "Value": ""
+      },
+      {
+        "Field": "CPRT_CONTRIBUTION_RATIO",
+        "Caption": "Contribution Ratio (%)",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Project Details",
+    "BlockView": "FCON_PROJ_DET_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V15",
+    "BlockOrder": 4.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "REP_DOWN_PAYMENT_OCCURRENCE",
+        "Caption": "Down Payment",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_PROJECT_START_DATE",
+        "Caption": "Project Start Date",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_PROJECT_END_DATE",
+        "Caption": "Project End Date",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_PROJECT_COST",
+        "Caption": "Project Cost",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_CONSULTANT_NAME",
+        "Caption": "Consultant",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Items",
+    "BlockView": "FCON_ITEMS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V8",
+    "BlockOrder": 6.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "FCI_DELIVERY_DATE",
+        "Caption": "Delivery Date",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Bulk Items",
+    "BlockView": "FCON_ITEMS_CATS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V6",
+    "BlockOrder": 7.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "UOM_L_SHORT_NAME",
+        "Caption": "Measurement Unit",
+        "Value": ""
+      },
+      {
+        "Field": "IC_CODE",
+        "Caption": "Category Code",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_UNIT_PRICE",
+        "Caption": "Unit Price",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_TOTAL_PRICE",
+        "Caption": "Total Price",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_REC_LOCATION",
+        "Caption": "Receiving Location",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_REC_DATE",
+        "Caption": "Receiving Date",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_QUANTITY",
+        "Caption": "Quantity",
+        "Value": ""
+      },
+      {
+        "Field": "CIC_DESC",
+        "Caption": "Description",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Disbursement",
+    "BlockView": "FCON_LEND_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V11",
+    "BlockOrder": 8.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "FCPD_DUE_DATE",
+        "Caption": "Due Date",
+        "Value": ""
+      },
+      {
+        "Field": "FCPD_AMOUNT",
+        "Caption": "Amount",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Payment",
+    "BlockView": "FCON_PAYMENT_TERMS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V13",
+    "BlockOrder": 9.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "TOTAL_CONSTRUCTOR_AMOUNT",
+        "Caption": "Total Constructor Amount",
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_PRIN_CALC_METHOD",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_PRIN_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_PRESERVED_VALUE",
+        "Caption": "Preserved Value",
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_PRESERVED_TYPE",
+        "Caption": "Preserved Type",
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_DESC",
+        "Caption": "Description",
+        "Value": ""
+      },
+      {
+        "Field": "FCPT_COLLATERAL_AMOUNT",
+        "Caption": "Collateral Amount",
+        "Value": ""
+      },
+      {
+        "Field": "ASC_LATIN_NAME",
+        "Caption": "Collateral Type",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Charges",
+    "BlockView": "FCON_CHARGES_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V1",
+    "BlockOrder": 10.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "DC_ACTUAL_AMOUNT",
+        "Caption": "Actual Amount",
+        "Value": ""
+      },
+      {
+        "Field": "CHA_LATIN_NAME",
+        "Caption": "Charge",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Repayment",
+    "BlockView": "FCON_REPAY_PARAMS_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V17",
+    "BlockOrder": 11.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "RT_XIRR",
+        "Caption": "XIRR",
+        "Value": ""
+      },
+      {
+        "Field": "RT_GRACE_DAYS",
+        "Caption": "Grace Days",
+        "Value": ""
+      },
+      {
+        "Field": "REP_TENURE",
+        "Caption": "Tenure",
+        "Value": ""
+      },
+      {
+        "Field": "REP_SKIPPED_TO",
+        "Caption": "Skipped To",
+        "Value": ""
+      },
+      {
+        "Field": "REP_SKIPPED_FROM",
+        "Caption": "Skipped From",
+        "Value": ""
+      },
+      {
+        "Field": "REP_PREPAID",
+        "Caption": "Prepaid Amount",
+        "Value": ""
+      },
+      {
+        "Field": "REP_ONE_IRR",
+        "Caption": "Single IRR",
+        "Value": ""
+      },
+      {
+        "Field": "REP_FINAL_ACCPT",
+        "Caption": "Final Acceptance",
+        "Value": ""
+      },
+      {
+        "Field": "REP_DOWN_PAYMENT",
+        "Caption": "Down Payment",
+        "Value": ""
+      },
+      {
+        "Field": "REP_CHANGE_TENURE",
+        "Caption": "Change Tenure",
+        "Value": ""
+      },
+      {
+        "Field": "REP_CHANGE_ALL_OTHER_INST",
+        "Caption": "Change All Other Amounts",
+        "Value": ""
+      },
+      {
+        "Field": "REP_ADD_ACRUAL",
+        "Caption": "Add Accrual",
+        "Value": ""
+      },
+      {
+        "Field": "FST_INSTALLMENT_DATE",
+        "Caption": "Generate Installments From",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Repayment Intervals",
+    "BlockView": "FCON_REPAY_INTERV_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V16",
+    "BlockOrder": 12.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "RPTI_ST_1ST_INS",
+        "Caption": "First Installment",
+        "Value": ""
+      },
+      {
+        "Field": "RPTI_INS_TYPE",
+        "Caption": "Installment Type",
+        "Value": ""
+      },
+      {
+        "Field": "RPTI_HAS_USER_DEF_PRINC",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "RPTI_HAS_USER_DEF_AMT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "RPTI_BALOON",
+        "Caption": "Balloon",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_SHIFTED_BY",
+        "Caption": "Shifted By",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_PROFIT",
+        "Caption": "Profit/Margin",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_INS_NO",
+        "Caption": "Installments Number",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_INS_DATE",
+        "Caption": "Installment Date",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_INCREASING_PER",
+        "Caption": "Increasing Percentage",
+        "Value": ""
+      },
+      {
+        "Field": "RPI_AMOUNT_RATIO",
+        "Caption": "Amount Ratio",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Installments",
+    "BlockView": "FCON_INSTALL_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V5",
+    "BlockOrder": 13.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "PYM_DESCRIPTION",
+        "Caption": "Payment Method",
+        "Value": ""
+      },
+      {
+        "Field": "INS_SUGGESTED_PROFIT_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_SUGGESTED_PRINCIPAL_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_SUGGESTED_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_REQUESTED_PROFIT_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_REQUESTED_PRINCIPAL_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_REQUESTED_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_APP_PROFIT_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_APP_PRINCIPAL_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      },
+      {
+        "Field": "INS_APP_AMOUNT",
+        "Caption": null,
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Collaterals",
+    "BlockView": "FCON_COLLATERALS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V2",
+    "BlockOrder": 14.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "REQC_VALUE",
+        "Caption": "Value",
+        "Value": ""
+      },
+      {
+        "Field": "REQC_UNITS_NO",
+        "Caption": "Units Number",
+        "Value": ""
+      },
+      {
+        "Field": "ASS_CODE",
+        "Caption": "Code",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Notes",
+    "BlockView": "FCON_NOTES_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V12",
+    "BlockOrder": 15.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "FCON_REMARKS",
+        "Caption": "Remarks",
+        "Value": ""
+      },
+      {
+        "Field": "FCON_OTHER_REQ",
+        "Caption": "Other Request",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Item Sale",
+    "BlockView": "FCON_ITEMS_SALE_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V9",
+    "BlockOrder": 16.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "ITS_BUYER_NAME",
+        "Caption": "Buyer Name",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Takaful",
+    "BlockView": "MFI_FE_VW",
+    "BlockType": "R",
+    "MinifiedName": "V20",
+    "BlockOrder": 19.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "IFM_L_NAME",
+        "Caption": "Family Member Name",
+        "Value": ""
+      },
+      {
+        "Field": "IFM_INS_COV_AMOUNT",
+        "Caption": "Takaful Coverage Amount",
+        "Value": ""
+      },
+      {
+        "Field": "IFM_INS_AMOUNT",
+        "Caption": "Takaful Amount",
+        "Value": ""
+      },
+      {
+        "Field": "IFM_CODE",
+        "Caption": "Family Member Code",
+        "Value": ""
+      },
+      {
+        "Field": "CUS_INS_COV_AMOUNT",
+        "Caption": "Coverage Amount",
+        "Value": ""
+      },
+      {
+        "Field": "CUS_INS_AMOUNT",
+        "Caption": "Amount",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Partners",
+    "BlockView": "FIN_CONT_PARTNERS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V19",
+    "BlockOrder": 20.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "CUS_CODE",
+        "Caption": "Partner Code",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "ModuleID": 1500900011,
+    "BlockName": "Joint Customers",
+    "BlockView": "FCON_JOINT_CUS_FE_VW",
+    "BlockType": "T",
+    "MinifiedName": "V10",
+    "BlockOrder": 21.0,
+    "BlockParentView": "FCON_REQUEST_FE_VW",
+    "Fields": [
+      {
+        "Field": "CUS_CODE",
+        "Caption": "Customer Code",
+        "Value": ""
+      }
+    ]
+  }
+]
